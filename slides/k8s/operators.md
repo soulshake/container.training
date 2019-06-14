@@ -147,6 +147,11 @@ Examples:
 
 .exercise[
 
+- Clone the repo if you haven't already:
+  ```bash
+  git clone git@github.com:jpetazzo/container.training
+  ```
+
 - Install the local path storage provisioner:
   ```bash
   kubectl apply -f ~/container.training/k8s/local-path-storage.yaml
